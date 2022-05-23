@@ -48,8 +48,6 @@ nav ul li a {
 main {
   display: flex;
   justify-content: space-between;
-
-  margin-bottom: 370px;
 }
 
 main img {
@@ -87,8 +85,12 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-
   flex-direction: column;
+
+  position: fixed;
+  right: 50%;
+  transform: translateX(50%);
+  bottom: 20px;
 }
 
 footer .line {
@@ -106,7 +108,7 @@ footer p {
   color: white;
 }
 
-footer img {
+.padlock {
   position: fixed;
   bottom: 20px;
   left: 20px;
